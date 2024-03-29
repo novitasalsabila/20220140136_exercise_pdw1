@@ -138,3 +138,32 @@ section.about{
 	padding-bottom: 200px;
 	
   }
+
+  section.menu {
+	/* margin: 4rem 0; */
+	background-color:#a2cde2 ;
+	
+  }
+
+
+.menu {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  
+}
+
+.menu-item {
+  background-color: #e8cbe8;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu-item img {
+  max-width: 100%;
+}
