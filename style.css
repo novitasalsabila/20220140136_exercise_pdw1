@@ -46,3 +46,68 @@
     }
   }
   
+/* HERO */
+
+section.hero {
+    /* margin: 4rem 0; */
+    background-image: url(/image/latar6.webp);
+    width: 1410px;
+    height: 600px;
+  }
+  
+  .hero-brand {
+    margin: 10px;
+  }
+  
+  .hero-image {
+    padding-right: 90px;
+    padding-top: 10px;
+  }
+  
+  .text-hero-bold,
+  .text-hero-regular {
+    margin: 20px 0;
+  }
+  
+  .text-hero-bold {
+    color:black;
+    font-size: 40px;
+    font-weight: var(--font-weight-bold);
+    line-height: 45px;
+    margin-right: 120px;
+    margin-top: 200px;
+  }
+  
+  .text-hero-regular {
+    color: var(--black);
+    font-size: var(--text-regular);
+    font-weight: var(--font-weight-regular);
+    line-height: 31px;
+  }
+  
+  /* .container {
+    margin-top: px;
+  } */
+  
+  /* BUTTON */
+  
+  .btn {
+    padding: 10px 35px;
+    border-radius: 30px;
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-medium);
+  }
+  
+  .btn-primary {
+    background-color: #5f0860;
+    border: none;
+  }
+  
+  .btn-primary:focus {
+    background-color: var(--primary);
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--primary);
+  }
+  
