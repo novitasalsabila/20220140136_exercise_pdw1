@@ -111,3 +111,30 @@ section.hero {
     background-color: var(--primary);
   }
   
+/*---------------------
+  About
+-----------------------*/
+
+.about__text {
+	padding-top: 20px;
+}
+
+.about__text h2 {
+	color: #111111;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.about__text p {
+	color: #111111;
+	margin-bottom: 26px;
+}
+
+section.about{
+	/* margin: 4rem 0; */
+	background-color:#e8cbe8 ;
+	padding-top: 100px;
+	padding-bottom: 200px;
+	
+  }
