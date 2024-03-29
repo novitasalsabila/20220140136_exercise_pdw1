@@ -342,3 +342,37 @@ section.about{
 	padding-top: 100px;
 	padding-bottom: 200px;
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Menggunakan model box-sizing border-box untuk semua elemen */
+  }
+  
+  body {
+    font-family: Arial, sans-serif; /* Mengatur font family untuk seluruh teks dalam body */
+  }
+  
+  .container {
+    width: 80%; /* Mengatur lebar kontainer menjadi 80% dari lebar tampilan */
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #04293f;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  header h1 {
+    float: left;
+  }
+  
